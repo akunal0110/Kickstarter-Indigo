@@ -1,0 +1,32 @@
+{
+    "Model Name": "Indiegogo_Success_Risk_Model",
+    "Training Date": "2025-12-09 04:45:22",
+    "Algorithm": "XGBoost Classifier",
+    "Dataset": "Indiegogo Cleaned Data (2019-2025)",
+    "Features Used": [
+        "category",
+        "close_date",
+        "currency",
+        "funds_raised_amount",
+        "funds_raised_percent",
+        "is_indemand",
+        "is_pre_launch",
+        "open_date",
+        "product_stage",
+        "project_type",
+        "tags",
+        "is_proven",
+        "is_promoted",
+        "duration_days",
+        "launch_month",
+        "launch_quarter",
+        "launch_year",
+        "amount_usd",
+        "goal_amount",
+        "funding_goal_category"
+    ],
+    "Target": "is_successful",
+    "Accuracy": "100%",
+    "Purpose": "Success prediction and risk analysis for new crowdfunding campaigns",
+    "Deployment Suggestion": "Use in a dashboard for campaign evaluation and startup risk scoring"
+}
